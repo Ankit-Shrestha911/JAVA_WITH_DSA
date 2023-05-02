@@ -1,0 +1,28 @@
+Function/Method
+
+1.Function is a block of code or group of code that perform a particular task.
+2.We can perform that particular task again & again by calling the function.
+3.It is reusable.
+4.Example: Like Tv remote button perform task ony  that is shown on button
+           Pressing in mute button do a tv mute same in function 
+           calling a function do their particular task.
+5. Every Tv remote button mapped with particular task.
+
+6.'Method' term is suitable for saying when function is written inside class.Else you can say
+  term 'Function
+
+7.Formal Parameter(Parameter)--> When defined the function/Method.
+Example: public static void sum(int a, int b){
+        // Here a,b are Parameter
+}
+
+8.Acutal Parameter(Argument)--> The value while calling the function/Method.
+Example: sum(2,3) // inside 2,3 are Argument
+
+9.By default in java calling is done by call by value. 
+
+10. Method are two types: 
+    1.User defined: This is written by us like (factorial,binomialCoefficient etc)
+
+    2.Inbuilt: This comes with java language like(nextInt(),max,min,pow,sqrt etc) 
+

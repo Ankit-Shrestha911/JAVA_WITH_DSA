@@ -1,0 +1,13 @@
+1. Primitive --> int,char,byte,short,float,double,long,Boolean these are the example of Primitive.In a Primitive we don't need to create it manully.Its a predefined inside language.
+
+2. Non Primitive --> String,Array,Object,class etc.. For using these data type we need to create it manully.
+
+[1byte = 8bits] and 1bits have [0]&[1]
+byte -> 1byte
+shorts -> 2byte
+int -> 4byte
+float -> 4byte
+long -> 8byte
+double -> 8byte
+char -> 2byte
+Boolean -> 1byte
