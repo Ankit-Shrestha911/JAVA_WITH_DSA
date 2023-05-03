@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class MaxSubarray{
-    //Method 1:(Brute force)
+    //Method 1:(Brute force) Time O(n^3) Space:O(1)
     public static  int printMaxSubarray(int arr[])
     {
         int maxValue = Integer.MIN_VALUE;
@@ -24,7 +24,7 @@ public class MaxSubarray{
         return maxValue;
     }
 
-    // Using prefix Array
+    // Using prefix Array Time:O(n^2) Space:O(n)
     public static int printMaxSubarrayOptimize(int arr[])
     {
         int prefixArray[] = new int[arr.length];
