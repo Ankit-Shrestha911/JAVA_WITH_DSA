@@ -15,7 +15,7 @@ public class Largest{
     }
 
     public static void main(String[] args){
-        int arr[] = {};
+        int arr[] = {1,11,-1,2,3,300,16,200,121,66};
         int maxValue = largestValue(arr);
         System.out.println(maxValue);
 

@@ -1,0 +1,29 @@
+1. Array is a list of element of same data type placed in a contiguous memory location.
+2. Memory have some their own address.
+3. c++/java using 0-1 indexing based language.
+
+
+//Creation
+
+Syntax:
+dataType arrayName[] = new dataType[size];
+
+Example:
+int marks[] = new int[50];
+int makrs[] = {1,2,3};
+String fruits[] = {"mango","apple"};
+
+//passing array as function argument
+
+//function
+public static void update(int marks[]) //no need to name it same you can change it.
+{
+    for(int i=0; i<marks.length; i++)
+        marks[i] +=1;
+}
+
+//main function
+public static  void main(String[] args){
+    int marks[] = {1,2,4};
+    update(marks);
+}
