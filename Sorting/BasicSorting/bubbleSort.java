@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class bubbleSort{
 
@@ -33,10 +32,9 @@ public class bubbleSort{
     }
 
     public static void main(String[] args){
-        int arr[] = {4,3,2,1};  
+        int arr[] = {1,2,7,5,4,0,-1};  
         doBubbleSort(arr);
         printArray(arr);  
-        pr
 
     }
 }

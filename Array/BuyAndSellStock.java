@@ -53,7 +53,7 @@ public class BuyAndSellStock{
             int prices[] = {7,6,4,3,1};//7,1,5,3,6,4
 
             System.out.println(printBuyAndSellStock(prices));
-           System.out.println(printBuyAndSellStock2(prices));
+            System.out.println(printBuyAndSellStock2(prices));
 
     }
 }
