@@ -1,0 +1,51 @@
+Class --> Class is a blueprint or template or group of entities that share common
+          properties and behaviour.
+
+          For example, let's consider a class called "Car". This class defines the properties and behaviors that all cars have in common, such as the number of doors, the make and model, the color, and the ability to accelerate, brake, and turn.
+
+          Once we define the Car class, we can create individual car objects based on that class. Each car object is an instance of the Car class, with its own unique set of values for the properties defined in the class.
+
+          For example, we could create a red Ford Mustang with two doors as one instance of the Car class, and a blue Toyota Camry with four doors as another instance of the Car class.
+
+Instance --> An instance of a class is a specific object that is created based on the class
+             blueprint.
+             Each instance of a class has its own unique set of values for the properties defined in the class.
+
+             For example, let's consider a class called "Person". This class defines the properties and behaviors that all people have in common, such as name, age, and the ability to walk and talk.
+
+             Once we define the Person class, we can create individual person objects based on that class. Each person object is an instance of the Person class, with its own unique values for the properties defined in the class.
+
+
+Object --> Object is a real world enitiy that has their own data in the form of properties
+           and behaviour in the form of methods.
+           The data is stored in object's properties and behaviour define in object methods
+
+           An object is an instance of that class, with its own unique set of values for the properties and set of behaviour for methods that defined in the class.
+
+This keyword --> Basically this (special java reserve)keyword refer to the current object who
+                 invoke the class at that time.
+
+Accessing the member of a class --> We can access the memeber of class using (.)dot operator
+                                    with object.
+
+Setter/Getter --> Setter are used to set the value of data member of class.
+                  Basically setter/Getter are using when we use private access modifiers
+                  But here we set data member value using methods.
+                  For example:
+                  We have a class called BankAccount.Also we have password data member
+                  So we don't want anyone can access or change password.We want 
+                  who can access or change password their user only.
+
+                  So we can sort of criteria to check whether the user is genuine or not
+                  So we pass their information in setter method to verify  before changing 
+
+                  Setter for modifiers or changing the data.
+                  Getter for view the data.
+
+Static keyword --> Static keyword refer that member is belong to class itself, not to object.
+                   We can access static member without creating an object.
+                   We cannot called static member from non-static function.
+                   Static is helpful when sometime is common for all example:
+                   School name are common for all student so create variable for everyone 
+                   only once.Not to create for every single student;
+                   All object refer the School name static variable
