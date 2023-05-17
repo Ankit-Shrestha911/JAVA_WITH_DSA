@@ -20,7 +20,9 @@ public class Question{
         finalAnswer = tempPrice+gstBill;
 
 
-        System.out.printf("Your Bill: %.2f",+finalAnswer);
+        //System.out.printf("Your Bill: %.2f",+finalAnswer);
+        System.out.print("Your bill: "+finalAnswer);
+
 
         
     }

@@ -1,5 +1,4 @@
-public class test {
-
+public class Anagram {
     public static boolean anagram(String word1, String word2) {
         int freq1[] = new int[26];
         int freq2[] = new int[26];
@@ -28,7 +27,16 @@ public class test {
         String word2 = "silenn";
 
         System.out.println(anagram(word1, word2));
-        System.out.println(Math.PI);
+  
+
     }
 
 }
+
+/*
+ * Anagram means you have to rearranging the letter of another word using all
+ * the orignal
+ * letter at once.
+ * Example: race and care
+ * Here i can make care using the letter of race and vice-versa
+ */

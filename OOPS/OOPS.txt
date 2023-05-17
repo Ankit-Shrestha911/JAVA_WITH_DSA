@@ -49,3 +49,54 @@ Static keyword --> Static keyword refer that member is belong to class itself, n
                    School name are common for all student so create variable for everyone 
                    only once.Not to create for every single student;
                    All object refer the School name static variable
+
+Encapsulation --> It is the process of hiding the implementation detail of
+                  object and show the necessary information.It can be
+                  achieved by access modifiers such as public,private,
+                  protected etc.
+
+Inheritance --> Inheritance is the process of creating new classes from 
+                existing classes. The new class inherits the properties and behaviors of the existing class and can add its own properties and behaviors.
+        
+Type of Inheritance:
+
+1. Single inheritance: In this type of inheritance, a subclass can inherit 
+   properties and methods from only one superclass. 
+   For example, if we have a class called "Animal" and a subclass called "Dog", the "Dog" class can only inherit from the "Animal" class.
+
+2. Multilevel inheritance is a type of inheritance where a subclass inherits
+   from a superclass, and this superclass is itself a subclass of another superclass, and so on.
+   For example, if we have a class called "Animal", a subclass called "Mammal", and another subclass called "Dog", the "Dog" class can inherit properties and methods from both the "Mammal" class and the "Animal" class.
+
+3. Hierarchical inheritance: In this type of inheritance, multiple 
+   subclasses can inherit from the same superclass. 
+   For example, if we have a class called "Animal" and two subclasses called "Dog" and "Cat", both the "Dog" and "Cat" classes can inherit properties and methods from the "Animal" class.
+
+4. Multiple inheritance: In this type of inheritance, a subclass can inherit
+   properties and methods from multiple superclasses. This type of inheritance is not supported in all programming languages, including Java.
+   In Java, you can achieve similar functionality using interfaces, which are like contracts that a class can implement.
+
+Polymorphism --> It is a concept that allows you to use a single function or
+                 method in different ways. In simpler terms, it means that the same function can be used with different inputs to produce different outputs.
+Types:
+
+1.Compile-Time(Method overloading): It occurs when multiple methods in a 
+                                    class have the same name but different parameter types.
+We can achieve method overloading by 
+1.chaning parameter
+2.change data types
+
+2. Run-Time(method overriding): It occurs when a method in a subclass has 
+                                the same name, return type, and parameters as a method in its superclass.
+                        
+Abstraction --> Abstraction in Java refers to the process of hiding the implementation details 
+                of an object and show only what is necessary. This is done by using abstract classes and interfaces.
+                An abstract class is a class that cannot be directly used to create objects but can be used as a blueprint for other classes. 
+                It can have methods that are declared but not defined, which are called abstract methods.
+                An interface is like a contract that defines a set of methods that a class should implement.
+
+Interface -->  Interfaces in Java can also be thought of as blueprints for classes. They define the methods and fields that 
+               a class must have in order to implement the interface.
+
+# Class cannot be private or protected because:
+   1. Not usable bcz can't able to create object
