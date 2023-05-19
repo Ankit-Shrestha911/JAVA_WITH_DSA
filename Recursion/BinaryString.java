@@ -20,9 +20,7 @@ public class BinaryString {
             System.out.println(ans);
             return;
         }
-        System.out.println(lastPlace);
         binaryString2(n - 1, 0, ans + "0");
-
         if (lastPlace == 0) {
             binaryString2(n - 1, 1, ans + "1");
 
@@ -31,7 +29,7 @@ public class BinaryString {
 
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
-        binaryString2(3, 1, "");
+        binaryString2(2, 0, "");
 
     }
 }
