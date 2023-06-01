@@ -1,0 +1,15 @@
+Backtracking: Backtracking is an algorithmic technique used to explore all possible 
+              solutions to a problem;
+Example: Imagine you are trying to solve a complex puzzle with multiple choices and
+         paths to explore. Backtracking is like taking a step-by-step approach to 
+         find the right solution. You start by making a choice and following a path. If you reach a dead end or realize that your choice was wrong, you backtrack or undo your previous steps and try a different choice. 
+
+Types of Backtracking: 
+
+1. Decision --> When we have choice whether the solution is exist or not, if exist
+                then return the "solution".
+
+2. Optimization --> When we have multiple solution but we need to extract or return
+                    the most optimal solution based on "shortest path to the goal" or "easy path" it depend.
+
+3. Enumeration --> When we need to return all the possible solution.

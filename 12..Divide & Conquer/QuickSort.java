@@ -1,4 +1,3 @@
-
 public class QuickSort {
 
     static int partition(int arr[], int start, int end) {

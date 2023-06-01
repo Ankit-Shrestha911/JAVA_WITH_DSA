@@ -1,34 +1,46 @@
-public class test {
+import java.lang.reflect.Array;
+import java.util.*;
 
-    public static boolean anagram(String word1, String word2) {
-        int freq1[] = new int[26];
-        int freq2[] = new int[26];
+public class test{
 
-        if (word1.length() != word2.length())
-            return false;
+    static int partition(ArrayList<Integer>list, int s, int e) {
+        int pivotPoint = list.get(e);
+        int i = s-1;
 
-        for (int i = 0; i < word1.length(); i++) {
-            char ch1 = word1.charAt(i);
-            char ch2 = word2.charAt(i);
-            freq1[ch1 - 'a']++;
-            freq2[ch2 - 'a']++;
+        for(int j=s; j<e; j++) {
+            if(list.get(j)<=pivotPoint) {
+                //swap
+                i++;
+                int temp = list.get(j);
+                list.set(j, list.get(i));
+                list.set(i, temp);
+
+            }
         }
 
-        for (int i = 0; i < 26; i++) {
+        i++;
+        int temp = pivotPoint;
+        list.set(e, list.get(i));
+        list.set(i,temp);
 
-            if (freq1[i] != freq2[i])
-                return false;
-        }
+        return i;
 
-        return true;
     }
 
-    public static void main(String[] args) {
-        String word1 = "listen";
-        String word2 = "silenn";
+    static void quickSort(ArrayList<Integer>list, int s, int e) {
+        if(s>=e) return;
 
-        System.out.println(anagram(word1, word2));
-        System.out.println(Math.PI);
+        int pivotPoint = partition(list,s,e);
+        quickSort(list, s, pivotPoint-1);
+        quickSort(list, pivotPoint+1, e);
     }
+
+    public static void main(String[] args){
+        ArrayList<Integer>list = new ArrayList<>(Arrays.asList(12,0,1,-1,2,6,7));  
+        System.out.println(list);
+        quickSort(list, 0, list.size()-1);
+        System.out.println(list);  
+    }
+
 
 }
